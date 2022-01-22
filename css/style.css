@@ -1520,7 +1520,7 @@ input:valid:not(:placeholder-shown) {
         width: 123px;
     }
     .catalog__item {
-        /* margin-right: 0; */
+        margin-right: 23px;
         width: 233px;
     }
     .catalog__item-img {
