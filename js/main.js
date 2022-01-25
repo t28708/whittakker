@@ -5,6 +5,7 @@ $(function() {
         arrows: true,
         dots: false,
         slidesToShow: 4,
+        variableWidth: true,
         prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-btn slick-next"></button>',
         responsive: [
@@ -130,6 +131,9 @@ $(function() {
 
         let elem = document.querySelector('.contact__form-popup');
         elem.classList.toggle('active');
+
+        let elem2 = document.querySelector('.contact__content');
+        elem2.classList.toggle('disabled');
 
     });
 
