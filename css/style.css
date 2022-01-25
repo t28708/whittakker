@@ -1657,6 +1657,12 @@ input:valid:not(:placeholder-shown) {
     }
 }
 
+@media (max-width: 370px) {
+    .footer__form-checkbox label:before {
+        bottom: 10px;
+    }
+}
+
 @media (max-width: 350px) {
     .header__basket {
         padding-right: 10px;
