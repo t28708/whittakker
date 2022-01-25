@@ -193,6 +193,8 @@ input:valid:not(:placeholder-shown) {
 .header__menu-items.active {
     display: block;
     flex-direction: column;
+    height: 100vh;
+    background: #F8F8F8;
 }
 
 .header__menu-item {
